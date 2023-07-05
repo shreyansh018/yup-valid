@@ -57,7 +57,7 @@ function Home() {
                 <option value="Miss">Miss</option>
                 <option value="Ms">Ms</option>
               </select>
-              <div className={styles.invalidFeedback}>
+              <div className={styles.invalidfeedback}>
                 {errors.title?.message}
               </div>
             </div>
@@ -158,13 +158,13 @@ function Home() {
             </div>
           </div>
           <div className={styles.formField}>
-            <button type="submit" className={styles.subButton}>
+            <button type="submit" className={styles.myButton}>
               Register
             </button>
             <button
               type="button"
               onClick={() => reset()}
-              className={styles.subButton}
+              className={styles.myButton}
             >
               Reset
             </button>
